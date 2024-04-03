@@ -8,16 +8,16 @@ public class CalcularMediaFinal {
 
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Digite a nota da Avaliação Continuada 1 (AC1):");
+        System.out.println("Digite a nota da AC1: ");
         double ac1 = scanner.nextDouble();
         
-        System.out.println("Digite a nota da Avaliação Continuada 2 (AC2):");
+        System.out.println("Digite a nota da AC2: ");
         double ac2 = scanner.nextDouble();
         
-        System.out.println("Digite a nota da Avaliação Geral (AG):");
+        System.out.println("Digite a nota da AG: ");
         double ag = scanner.nextDouble();
         
-        System.out.println("Digite a nota da Avaliação Final (AF):");
+        System.out.println("Digite a nota da AF: ");
         double af = scanner.nextDouble();
         
         double mediaFinal = calcularMediaFinal(ac1, ac2, ag, af);
