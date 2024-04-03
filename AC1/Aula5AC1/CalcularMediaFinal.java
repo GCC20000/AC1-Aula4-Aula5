@@ -1,7 +1,7 @@
 package Aula5AC1;
 import java.util.Scanner;
 
-public class calculodamediafinal {
+public class CalcularMediaFinal {
     public static void main(String[] args) {
 
         //Calcular a média final de um aluno
